@@ -39,13 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'example',
-    "channels",
+    "rest_framework",
 ]
-Channel_LAYERS = {  
-    "default": {  
-        "BACKEND": "channels.layers.InMemoryChannelLayer"  
-    }  
-}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -75,8 +71,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'api.wsgi.app'
-ASGI_APPLICATION = 'api.asgi.app'
+WSGI_APPLICATION = 'api.wsgi.app'
 
 
 # Database

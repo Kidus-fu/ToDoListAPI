@@ -2,6 +2,12 @@
 from datetime import datetime
 
 from django.http import HttpResponse
+from rest_framework.views import APIView
+from rest_framework.response import Response
+
+class HelloView(APIView):
+    def get(self, request):
+        return Response({"message": "Hi"})
 
 def index(request):
     now = datetime.now()
