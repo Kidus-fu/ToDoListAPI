@@ -2,9 +2,7 @@
 *.log
 *.pyc
 __pycache__
-db.sqlite3
 media
-migrations
 py_client
 # Environments 
 .env 
