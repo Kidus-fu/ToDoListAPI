@@ -3,7 +3,6 @@
 *.pyc
 __pycache__
 py_client
-media
 index.html
 # Environments 
 .env 
