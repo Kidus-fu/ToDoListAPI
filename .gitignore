@@ -2,10 +2,9 @@
 *.log
 *.pyc
 __pycache__
-db.sqlite3
-media
-migrations
 py_client
+media
+index.html
 # Environments 
 .env 
 .venv 
