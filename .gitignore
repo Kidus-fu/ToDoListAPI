@@ -4,6 +4,9 @@
 __pycache__
 py_client
 index.html
+migration
+py_client
+db.sqlite3
 # Environments 
 .env 
 .venv 
